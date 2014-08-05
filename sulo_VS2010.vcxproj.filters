@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ASByteArray.cpp" />
+    <ClCompile Include="ASMethodInfo.cpp" />
+    <ClCompile Include="ASMultiname.cpp" />
+    <ClCompile Include="ASString.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ASTraits.cpp" />
+    <ClCompile Include="plugins\CallTracerPlugin.cpp">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\FlashDumperPlugin.cpp">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\SuloPluginManager.cpp">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashPlayerConfigBuilder.cpp" />
+    <ClCompile Include="plugins\SecureSWFPlugin.cpp">
+      <Filter>plugins</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASByteArray.h" />
+    <ClInclude Include="ASMethodInfo.h" />
+    <ClInclude Include="ASMultiname.h" />
+    <ClInclude Include="ASString.h" />
+    <ClInclude Include="ASTraits.h" />
+    <ClInclude Include="FlashPlayerConfigBuilder.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="plugins\CallTracerPlugin.h">
+      <Filter>plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\FlashDumperPlugin.h">
+      <Filter>plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\ISuloPlugin.h">
+      <Filter>plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\SuloPluginManager.h">
+      <Filter>plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\SecureSWFPlugin.h">
+      <Filter>plugins</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{78ea4d96-4e7c-4593-a751-c6475609c35b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
